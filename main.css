@@ -1,35 +1,36 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap");
 
 body {
-	font-family: "Inconsolata", sans-serif;
-	font-size: 14px;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 14px;
+  margin: 0;
 }
 
 svg text {
-	font-size: 12px;
+  font-size: 12px;
 }
 
 .container {
-	margin: auto;
-	width: 90vw;
-	min-width: 600px;
-	text-align: center;
+  margin: auto;
+  width: 90vw;
+  min-width: 600px;
+  text-align: center;
 }
 
 .chart-container {
-	position: relative;
+  position: relative;
 }
 
 .chart-svg,
 .chart-canvas {
-	width: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 line,
 path,
 polyline {
-	stroke: #aaa;
+  stroke: #aaa;
 }
